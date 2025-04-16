@@ -14,4 +14,4 @@ RUN find . -type d -exec chmod 750 {} \;
 RUN chmod g+w /var/www/html/upload/
 
 RUN chmod +t -R /var/www/html/
-RUN echo "CBJS{FAKE_FLAG_FAKE_FLAG}" > /secret.txt
+RUN echo "FLAG{WELCOME_TO_THE_FILE_UPLOAD_VULNERABILITY}" > /first_secret.txt
